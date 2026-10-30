@@ -1,0 +1,59 @@
+/* ==========================================
+   Task 4 Styling
+   ========================================== */
+
+/* Relative & Absolute Badge Box */
+.box {
+    position: relative;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #eef6ff;
+    margin-bottom: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff3547;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.flex-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.grid-box {
+    padding: 25px;
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
